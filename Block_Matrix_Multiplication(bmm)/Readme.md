@@ -12,3 +12,6 @@ code in order to gain the best possible speed.
 
 Note: Please do not confuse TILEX and TILEY
 with TX and TY which correspond to thread index in a CUDA block.
+
+![alt text](https://github.com/hoseinyavarzadeh/Parallel_Computing/blob/main/Block_Matrix_Multiplication(bmm)/bmm.png)
+

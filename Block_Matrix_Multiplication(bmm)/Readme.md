@@ -28,4 +28,4 @@ Compile: nvcc -O2 bmm_main.cu bmm.cu -o bmm
 Execute: ./bmm M
 ```
 
-![alt text](https://github.com/hoseinyavarzadeh/Parallel_Computing/blob/main/Block_Matrix_Multiplication(bmm)/bmm.png)
+![blobk matrix multiplication](https://github.com/hoseinyavarzadeh/Parallel_Computing/blob/main/Block_Matrix_Multiplication(bmm)/bmm.png)

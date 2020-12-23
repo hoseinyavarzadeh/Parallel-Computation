@@ -19,10 +19,9 @@ code in order to gain the best possible speed.
 #define TILEY 16
 ```
 
-> <div class="text-blue mb-2">
-*Note: Please do not confuse TILEX and TILEY
-with TX and TY which correspond to thread index in a CUDA block.*
-</div>
+***Note: Please do not confuse TILEX and TILEY
+with TX and TY which correspond to thread index in a CUDA block.***
+
 
 ```
 Compile: nvcc -O2 bmm_main.cu bmm.cu -o bmm

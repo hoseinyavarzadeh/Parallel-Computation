@@ -13,8 +13,17 @@ be defined on top of bmm.cu using two #define directives. Our program works corr
 for TILEX and/or TILEY equal to 4, 8, 16 and 32, but you should tune both of them in your
 code in order to gain the best possible speed. 
 
-> *Note: Please do not confuse TILEX and TILEY
+```c
+// My suggestion for TILEX and TILEY based on experiments:
+#define TILEX 32
+#define TILEY 16
+```
+
+> <div class="text-blue mb-2">
+*Note: Please do not confuse TILEX and TILEY
 with TX and TY which correspond to thread index in a CUDA block.*
+</div>
+
 ```
 Compile: nvcc -O2 bmm_main.cu bmm.cu -o bmm
 Execute: ./bmm M

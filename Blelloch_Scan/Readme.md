@@ -6,3 +6,5 @@ Our program fills the array A with random float values -2.0 <= A[i] <= +2.0
 Compile: nvcc scan2.cu scan2_main.cu -o scan2
 Execute: ./scan2 M
 ```
+
+Results :

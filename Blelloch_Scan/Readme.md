@@ -9,5 +9,6 @@ Compile: nvcc scan2.cu scan2_main.cu -o scan2
 Execute: ./scan2 M
 ```
 
-***Results :
+**Results :
+
 ![blobk matrix multiplication](https://github.com/hoseinyavarzadeh/Parallel_Computing/blob/main/Blelloch_Scan/results_cudascan2.png)
